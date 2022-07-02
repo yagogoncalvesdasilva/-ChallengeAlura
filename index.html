@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Decodificador</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body class="imgfundo">
+    <header>
+        <h1 class="logoalura">
+            <img src="logoalura.png" alt="Logo da alura com a inicial a">
+        </h1>
+        <h2 class="titulo_principal">DECODIFICADOR DE TEXTO</h2>
+        <h3 class="titulo_secundario">Proteja seu texto criptografando e descriptografando com uma chave que ninguém conhece!</h3>  
+    </header>
+    
+    <main class="main">
+            <section>
+                <textarea class="input-texto" cols="70" rows="10" placeholder="Digite aqui seu texto. Apenas letras maiúsculas e minúsculas."></textarea>
+                    <div class="botoes">
+                        <button class="encriptar" onclick="btnEncriptar()">
+                            Criptografar
+                        </button>
+                        <button class="desencriptar" onclick="btnDesencriptar()">
+                            Descriptografar
+                        </button>                                   
+                    </div>               
+            </section>
+         
+            <section>
+                <textarea class="mensagem" cols="50" rows="7"></textarea>
+            </section>
+                        
+            <section>
+                <button class="copy" onclick="btnCopy()">
+                    Copiar
+                </button>
+            </section>
+
+            <footer class="footer">                           
+                     @Desenvolvido por Yago Silva - 06/2022.
+            </footer>
+    </main>
+    <script src="script.js"></script>    
+    
+</body>
+</html>
